@@ -1,0 +1,40 @@
+{
+    "name": "orbtall/laravel-package-tools",
+    "description": "Tools for creating Laravel packages",
+    "keywords": [
+        "orbtall",
+        "laravel-package-tools"
+    ],
+    "homepage": "https://github.com/orbtall/laravel-package-tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orbtall LLC"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^9.28|^10.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.5",
+        "orchestra/testbench": "^7.7|^8.0",
+        "pestphp/pest": "^1.22",
+        "phpunit/phpunit": "^9.5.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orbtall\\LaravelPackageTools\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Orbtall\\LaravelPackageTools\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
